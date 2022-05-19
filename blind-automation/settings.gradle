@@ -1,0 +1,5 @@
+rootProject.name = 'blind-automation'
+include ':blind-automation-entity'
+include ':blind-automation-discovery'
+include 'blind-automation-rest'
+
