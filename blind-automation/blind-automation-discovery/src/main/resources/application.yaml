@@ -1,0 +1,18 @@
+app:
+  kafka:
+    topic: Device
+
+logging:
+  level:
+    root: INFO
+    ch.raphaelbrunner: DEBUG
+
+
+spring:
+  application:
+    name: device-discovery-service
+  kafka:
+    client-id: device-discovery-service
+    producer:
+      bootstrap-servers:
+        - localhost:9092
