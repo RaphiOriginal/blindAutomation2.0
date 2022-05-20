@@ -1,5 +1,7 @@
 rootProject.name = 'blind-automation'
 include ':blind-automation-entity'
 include ':blind-automation-discovery'
-include 'blind-automation-rest'
+include ':blind-automation-rest'
+include ':blind-automation-common'
+include 'blind-automation-db'
 

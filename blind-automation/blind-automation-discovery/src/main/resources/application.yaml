@@ -7,6 +7,8 @@ logging:
     root: INFO
     ch.raphaelbrunner: DEBUG
 
+server:
+  port: 6969
 
 spring:
   application:
