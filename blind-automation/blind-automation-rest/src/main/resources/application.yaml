@@ -21,6 +21,6 @@ spring:
       ddl-auto: create
   kafka:
     client-id: rest-api-service
-    consumer:
+    producer:
       bootstrap-servers:
         - localhost:9092
