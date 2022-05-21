@@ -1,4 +1,4 @@
-package ch.raphaelbrunner.blindautomation.discovery;
+package ch.raphaelbrunner.blindautomation.common.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
