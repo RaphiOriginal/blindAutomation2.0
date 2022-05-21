@@ -12,17 +12,22 @@ repositories {
 }
 
 dependencies {
-    implementation project(':blind-automation-entity')
-    implementation project(':blind-automation-common')
-
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.jmdns:jmdns:3.5.7'
     implementation 'org.springframework.kafka:spring-kafka'
-    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
 
 test {
     useJUnitPlatform()
+}
+
+bootJar {
+    enabled false
+}
+
+jar {
+    enabled true
 }
