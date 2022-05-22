@@ -1,6 +1,6 @@
 app:
   kafka:
-    topic: Device
+    topic: Action
 
 logging:
   level:
