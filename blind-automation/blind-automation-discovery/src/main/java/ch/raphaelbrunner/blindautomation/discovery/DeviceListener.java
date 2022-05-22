@@ -90,7 +90,7 @@ public class DeviceListener implements ServiceListener {
     private Device buildDevice(final String id, final String host, final Action action) {
         final Device device = new Device();
         device.setId(id);
-        device.setUrl(host);
+        device.setUrl(String.format("http://%s", host));
         device.setAction(action);
         return device;
     }
