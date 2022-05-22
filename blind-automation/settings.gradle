@@ -4,4 +4,5 @@ include ':blind-automation-discovery'
 include ':blind-automation-rest'
 include ':blind-automation-common'
 include 'blind-automation-db'
+include 'blind-automation-executor'
 
