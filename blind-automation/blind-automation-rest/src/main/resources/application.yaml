@@ -6,6 +6,7 @@ logging:
   level:
     root: INFO
     ch.raphaelbrunner: DEBUG
+    javax.jmdns: FATAL
 
 spring:
   application:
